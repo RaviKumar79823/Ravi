@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="10" name="Test" parallel="classes">
+	  <groups>
+		  <run>
+			  <include name="smoke"></include>
+		  </run>
+	  </groups>
+    <classes>
+      <class name="Batch1.class2"/>
+      <class name="Batch1.class5"/>
+      <class name="Batch1.Class1"/>
+      <class name="Batch2.class7"/>
+      <class name="Batch2.class6"/>
+      <class name="Batch1.class3"/>
+      <class name="Batch1.class4"/>
+      <class name="Batch2.class9"/>
+      <class name="Batch2.class8"/>
+      <class name="Batch2.class10"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-05T12:57:19 IST" name="Default suite" finished-at="2024-03-05T12:57:26 IST" duration-ms="6658">
+    <groups>
+    </groups>
+    <test started-at="2024-03-05T12:57:19 IST" name="Default test" finished-at="2024-03-05T12:57:26 IST" duration-ms="6658">
+      <class name="Assertions.Oracletask">
+        <test-method signature="oracle()[pri:0, instance:Assertions.Oracletask@34a3d150]" started-at="2024-03-05T12:57:19 IST" name="oracle" finished-at="2024-03-05T12:57:26 IST" duration-ms="6582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oracle -->
+      </class> <!-- Assertions.Oracletask -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
